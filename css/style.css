@@ -458,25 +458,27 @@
 .teamBig img{
     width: 100%;
 }
-.singleTestm p{
-    font-size: 40px;
+.singleTestm p {
+    font-size: 20px;
     color: #000000;
     font-weight: 300;
-    line-height: 50px;
-    margin-bottom:21px;
+    line-height: normal;
+    margin-top: 30px;
 }
-.teamDeg h4.magenta{
+.teamDeg h4.magenta {
     color: #01559f;
+    font-weight: 600;
 }
-.teamTop{
-    margin-bottom: 133px;
+.teamTop {
+    margin-top: 130px;
+    margin-bottom: 130px;
 }
 .testmonial {
     margin-left: 120px;
     margin-top: 150px;
     position: relative;
 }
-.testmonial::before {
+/* .testmonial::before {
     background: #01559f;
     content: "";
     height: 2px;
@@ -485,8 +487,8 @@
     width: 200px;
     left: -224px;
     top: 23px;
-}
-.testmonial::after {
+} */
+/* .testmonial::after {
     content: "\f104";
     font-family: "Flaticon";
     left: -50px;
@@ -494,7 +496,7 @@
     top: -17px;
     font-size: 27px;
     color: #01559f;
-}
+} */
 .singleTeam{
     text-align: center;
 }
@@ -535,8 +537,8 @@
 /*=======================================================================
 [06] OUR WORK
 =========================================================================*/
-.ourwork{
-    padding-top: 146px;
+.ourwork {
+    padding-top: 0;
 }
 .singleWorkContent{
     text-align: center;
@@ -833,13 +835,11 @@
     width: 100%;
     height: auto;
 }
-.blogTitle{
-    margin-bottom: 28px;
+.blogTitle {
+    margin-bottom: 0;
     min-height: 108px;
 }
-.bperaDiv {
-    min-height: 182px;
-}
+
 .blogTitle a{
     font-size: 26px;
     color: #000000;
@@ -1214,7 +1214,7 @@
     padding: 21px 90px 21px;
 }
 .aboutBottom.home_page2{
-    background: url(../images/bg/6.jpg) no-repeat scroll center center/cover;
+    background: #fff;
     position: relative;
 }
 .aboutTop.home_page2 {
@@ -1372,7 +1372,7 @@
     position: relative;
 }
 .perelaxBg1 {
-    background: rgba(0, 0, 0, 0) url("../images/bg/p1.png") no-repeat center 0 ;
+  background: #fff;
     left: 0;
     position: absolute;
     right: 0;

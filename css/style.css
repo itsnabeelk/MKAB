@@ -337,8 +337,8 @@
 /*=======================================================================
 [03] ABOUT
 =========================================================================*/
-.about{
-    padding-bottom: 86px;
+.about {
+    padding-bottom: 30px;
 }
 .aboutTop{
     padding-top: 163px;
@@ -456,6 +456,19 @@
 =========================================================================*/
 .team{
     padding-bottom: 89px;
+    position: relative;
+}
+.team::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-image: url(../images/bg1.png);
+    opacity: 0.4;
+    z-index: -2;
 }
 .epr200{
     padding-right: 400px;
@@ -803,10 +816,49 @@
 /*=======================================================================
 [10] OUR BLOG
 =========================================================================*/
-.blogSection{
-    background: url(../images/bg/5.jpg) no-repeat fixed center center/cover;
-    padding: 123px 0 140px;
+.blogSection {
+    padding: 60px 0 60px;
+    position: relative;
 }
+.blogSection::after {
+    position: absolute;
+    left: 0;
+    content: "";
+    bottom: 50%;
+    background-image: url(../images/element1.png);
+    background-repeat: no-repeat;
+    left: 30px;
+    max-width: 100%;
+    background-position: bottom;
+    background-size: contain;
+    width: 150px;
+    top: 0;
+    animation: upAndDown 1s infinite alternate;
+}
+.blogSection::before {
+    position: absolute;
+    left: 0;
+    content: "";
+    bottom: 30%;
+    background-image: url(../images/element2.png);
+    background-repeat: no-repeat;
+    right: 30px;
+    max-width: 100%;
+    background-position: bottom;
+    background-size: contain;
+    width: 150px;
+    top: 0;
+    animation: upAndDown 1s infinite alternate;
+    left: auto;
+}
+@keyframes upAndDown {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-20px);
+    }
+  }
 .singleBlog{
     background: #fff;
     margin: 0 7.5px;

@@ -36,14 +36,22 @@
     /*=======================================================================
      [02] TESTMONIAL
      =========================================================================*/
-    var testCarousel = $('#testmonial');
-    if(testCarousel.length > 0){
-        testCarousel.owlCarousel({
-            items : 1,
-            dots : false,
-            autoplay : true
-        });
-    }
+     var testCarousel = $('#slider2');
+     if (testCarousel.length > 0) {
+       testCarousel.owlCarousel({
+         items: 1, // Display one item at a time
+         dots: true,
+         autoplay: true,
+         responsive: {
+           0: {
+             items: 1 // Responsive settings for devices with screen width less than 600px
+           },
+           600: {
+             items: 3 // Responsive settings for devices with screen width 600px and above
+           }
+         }
+       });
+     }
     ;
 
 

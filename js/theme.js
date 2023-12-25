@@ -55,18 +55,7 @@
     ;
 
 
-    /*=======================================================================
-     [03] TESTMONIAL WITH BG
-     =========================================================================*/
-    var testmonialCaro = $('#testmonialCaro');
-    if(testmonialCaro.length > 0){
-        testmonialCaro.owlCarousel({
-            items : 1,
-            dots : true,
-            autoplay : false
-        });
-    }
-    ;
+
 
     /*=======================================================================
      [04] WORK CAROUSEL

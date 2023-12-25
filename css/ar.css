@@ -1,0 +1,82 @@
+.form-apply {
+    direction: rtl;
+    text-align: right;
+}
+.form-apply h2 {
+    text-align: right;
+    direction: rtl;
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.mainMenu {
+    text-align: right;
+    direction: rtl;
+}
+.mainMenu ul li {
+    margin-right: 0;
+    margin-left: 25px;
+}
+.teamDeg h4.magenta {
+    color: #01559f;
+    font-weight: 600;
+    direction: rtl;
+}
+.singleTestm p {
+    font-size: 20px;
+    color: #000000;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 30px;
+    direction: rtl;
+    text-align: right;
+}
+.blogDec {
+    padding: 61px 30px 45px 41px;
+    direction: rtl;
+    text-align: right;
+}
+.footer {
+    padding: 72px 75px 55px;
+    direction: rtl;
+    text-align: right;
+}
+.newsletter input[type='submit'] {
+    position: absolute;
+    left: -5px;
+    right: auto !important;
+    background: transparent;
+    font-size: 14px;
+    color: #fe0060;
+    text-transform: uppercase;
+    border: none;
+    font-weight: 700;
+    line-height: .8;
+    top: 15px;
+}
+.fooInfo p i {
+    font-size: 16px;
+    margin-right: 0;
+    position: relative;
+    top: 1px;
+    margin-left: 11px;
+}
+.fooInfo p {
+    font-size: 14px;
+    letter-spacing: 2.8px;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-right: 0;
+    font-weight: 300;
+    margin-left: 2px;
+    margin-left: 38px;
+}
+
+@media (max-width:580px) {
+    .logo img {
+        width: 150px;
+    }
+    .stickyLogo img {
+        width: 111px;
+    }
+}

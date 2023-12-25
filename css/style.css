@@ -41,7 +41,7 @@
     top: -4px;
 }
 .logo img {
-    width: 150px;
+    width: 230px;
     position: relative;
     top: -15px;
 }
@@ -61,7 +61,9 @@
 .mainMenu{
     text-align: right;
 }
-.mainMenu ul{}
+.mainMenu ul {
+    margin-top: 30px;
+}
 .mainMenu ul li{
     display: inline-block;
     margin-right: 30px;
@@ -136,8 +138,9 @@
 .mainMenu ul li:hover > a{
     color: #01559f !important;
 }
-.callus{
+.callus {
     text-align: right;
+    margin-top: 30px;
 }
 .callus p{
     margin-bottom: 0;
@@ -146,7 +149,7 @@
     text-transform: uppercase;
     font-size: 14px;
 }
-.isSticky.fixedHeader{
+.isSticky.fixedHeader {
     position: fixed;
     left: 0;
     right: 0;
@@ -156,6 +159,7 @@
     z-index: 1009;
     padding: 25px 90px 18px;
     box-shadow: 0 -2px 19px 0px #dadada;
+    height: 140px;
 }
 .isSticky.fixedHeader .logo{
     top: 0;
@@ -182,8 +186,8 @@
 .isSticky.fixedHeader .logo h1 a{
     color: #01559f;
 }
-.stickyLogo img{
-    width: 135px;
+.stickyLogo img {
+    width: 180px;
     position: relative;
     top: -18px;
 }
@@ -729,19 +733,21 @@
     background: #db1f26;
     width: 900px;
     margin: auto;
-    padding: 153px 127px 29px;
+    padding: 100px;
     position: relative;
     top: 121px;
+    text-align: center;
 }
-.singleTestmn p{
+.singleTestmn p {
     font-size: 30px;
     color: #ffffff;
     line-height: 50px;
     font-weight: 300;
+    text-align: center;
 }
-.singleTestmn p:last-of-type{
+/* .singleTestmn p:last-of-type{
     margin-bottom: 31px;
-}
+} */
 .testAut h4{
     color: #01559f;
     margin: 0 0 3px;
@@ -2451,3 +2457,68 @@
 .fixedHeader .color_white:hover{
     color: #db1f26 !important;
 }
+
+
+/* career */
+.career-main {
+    height: 70vh;
+    background-attachment: fixed;
+    background-image: url(../images/career/career.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: 0 100%;
+}
+.career-main h2{
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    font-size: 60px;
+}
+.career-form {
+    background: #ededed;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    padding: 100px 0;
+}
+.form-apply {
+    background: #fff;
+    width: 100%;
+    height: auto;
+    margin-top: 25px;
+    background-color: #fff;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-direction: column;
+}
+.form-apply input{
+    padding: 25px 15px;
+}
+.custom-file-uploader {
+    position: relative;
+  }
+  .custom-file-uploader input[type=file] {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: default;
+  }
+  .input-group-btn .btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+    height: 50px;
+    padding: 15px;
+}
+/* end career */

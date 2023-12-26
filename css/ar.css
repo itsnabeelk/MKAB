@@ -80,3 +80,11 @@
         width: 111px;
     }
 }
+.contact.home_page2 {
+    direction: rtl;
+    text-align: right;
+}
+.single_form {
+    direction: rtl;
+    text-align: right;
+}

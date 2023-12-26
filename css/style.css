@@ -2522,3 +2522,22 @@
     padding: 15px;
 }
 /* end career */
+.blogSection h1{
+    position: relative;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 80px;
+}
+.fooInfo{
+    color: #000;
+}
+
+body{
+    scroll-behavior: smooth;
+}
+@media (max-width:760px) {
+    .blogSection::after {
+        bottom: 49%;
+        width: 50px;
+    }
+}
